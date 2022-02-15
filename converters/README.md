@@ -1,12 +1,16 @@
 # Converters
 
+Make sure that installed Anaconda3 or see [here](https://github.com/C190342/labelImg/wiki/Install-LabelImg-via-Anaconda-for-Windows-OS)
+
+by step 1.4, continue with below code:
+
 ## Convert Yolo to XML
 In order to install and run this script you will only need two dependencies: Python version 3 or higher, and PIL.
 
 PIL is a python based library that makes working with images much easier. PIL can be installed by running the following two commands:
 ```
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade Pillow
+python -m pip install --upgrade pip
+python -m pip install --upgrade Pillow
 ```
 
 ### Running the Yolo to XML Script
@@ -22,7 +26,8 @@ Once the script has run, it will create a new folder in the same directory that 
 
 Running the following command will run the script and from there, start converting your files:
 ```
-python3 convert-yolo-to-xml.py
+cd path_to_[convert-yolo-to-xml]_folder
+python convert-yolo-to-xml.py
 ```
 
 
@@ -31,8 +36,8 @@ In order to install and run this script you will only need two dependencies: Pyt
 
 PIL is a python based library that makes working with images much easier. PIL can be installed by running the following two commands:
 ```
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade Pillow
+python -m pip install --upgrade pip
+python -m pip install --upgrade Pillow
 ```
 
 If you want to resize your images to save on storage space or speed up load times while using online GPU solutions like CoLab. You can use this script to shrink the size of the image, all while keeping the correct aspect ratios so that images aren't distorted. It will also automatically convert all the files that are run through this script to a ".jpeg" format.
@@ -43,5 +48,6 @@ The next thing it will ask you for is the maximum size (in pixels) that you want
 
 Running the following command will run the script and from there, start converting your files:
 ```
-python3 resize-images.py
+cd path_to_[resize-images]_folder
+python resize-images.py
 ```
