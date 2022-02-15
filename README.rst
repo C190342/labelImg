@@ -134,6 +134,8 @@ Open the Anaconda Prompt and go to the `labelImg <#labelimg>`__ directory
     python labelImg.py
     python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
+For more detailed instructions, `click here <https://github.com/C190342/labelImg/wiki/Install-LabelImg-via-Anaconda-for-Windows-OS>`_
+
 Use Docker
 ~~~~~~~~~~~~~~~~~
 .. code:: shell
