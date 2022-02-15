@@ -51,3 +51,5 @@ Running the following command will run the script and from there, start converti
 cd path_to_[resize-images]_folder
 python resize-images.py
 ```
+
+[older converters](https://github.com/C190342/labelImg/files/8066132/converters.zip) 
