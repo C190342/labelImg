@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
-
 import os
 import re
 from PIL import Image
@@ -28,6 +22,7 @@ def is_number(n):
     return False
 
 os.chdir(folder_holding_yolo_files)
+link_create = folder_holding_yolo_files + os.sep + 'XML';
 
 if not os.path.exists(folder_holding_yolo_files + os.sep + 'XML'):
   # If an XML folder does not already exist, make one
@@ -125,14 +120,8 @@ for each_yolo_file in os.listdir(folder_holding_yolo_files):
         f.close() # Close the file
 
 # Check to make sure the sprite file is now in the folder
+# Check to make sure the sprite file is now in the folder
 if os.path.exists("XML"):
-  print("Conversion complete")
+  print("Conversion complete, please check result in " + link_create + " folder.")
 else:
   print("There was a problem converting the files")
-
-
-# In[ ]:
-
-
-
-
